@@ -1,20 +1,147 @@
-html {
-  height: 100%;
-  width: 100%;
+/* new version*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eae2b7;
+  line-height: 1.6;
 }
 
-nav {
-  display: grid;
-  place-items: center; /* Centers items both horizontally and vertically */
+/* Header and Footer */
+header {
+  margin-top: 100px;
+  text-align: center;
+  color: #003049;
+}
+
+footer {
+  text-align: center;
+  color: #003049;
+  padding: 10px 0;
 }
 
 nav ul {
-  list-style-type: none; /* Removes default list styles */
+  list-style-type: none;
+  margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav ul li {
-  display: inline-block; /* Display items horizontally */
-  margin-right: 10px; /* Adjust spacing between items */
-  place-items: center;
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #d62828;
+
+}
+
+nav ul li a:hover {
+  color: #f77f00;
+}
+
+/* About Section */
+#about h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 100px;
+  color: #003049;
+}
+
+#about h3 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #003049;
+}
+
+#about p {
+  text-align: left;
+  margin-left: 30%;
+  color: #003049;
+  align-items: left;
+}
+
+#about p a {
+  color: #d62828;
+}
+
+#about ul {
+  text-align: left;
+  margin-left: 30%;
+  color: #003049;
+}
+
+hr {
+  border: 1px solid black;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.image-circle {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+/* Portfolio Section */
+#portfolio h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #003049;
+}
+
+#portfolio h3 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #003049;
+}
+
+#portfolio img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+figcaption {
+  text-align: center;
+  color: #003049;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: x-large;
+}
+
+
+
+/* Contact Section */
+#contact h2 {
+  color: #003049;
+  font-size: 2em;
+  text-align: center;
+}
+
+#contact p {
+  color: #003049;
+  margin-left: 25%;
+}
+
+#contact ol {
+  text-align: left;
+  margin-left: 25%;
+}
+
+#contact ol {
+  list-style-type: decimal;
+}
+
+#contact ol li a {
+  color: #d62828;
+  text-decoration: none;
+}
+
+#contact ol li a:hover {
+  color: #f77f00;
 }
